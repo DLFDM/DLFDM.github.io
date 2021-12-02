@@ -1,0 +1,56 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione  
+
+*/
+
+html {
+	/* set up a background image */
+	
+	background: url('../images/IMG_4706.jpg') no-repeat;
+
+	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1{
+	color: red;
+	font-size: 80px;
+	font-family: Estonia
+}
+
+/* hexadecimal code are for colors*/
+h2{
+	background: #D00000;
+	font-size: 60px;
+	font-family: Estonia
+}
+
+a {
+	color: #DD614A;
+}
+
+p {
+	color: red;
+	font-size: 40px;
+	font-family: Estonia
+}
+
+a {
+	text-decoration: none;
+}
+
+#container {
+	background: yellow;
+	width: 400px;
+	margin: 5px;
+	padding:25px;
+}
